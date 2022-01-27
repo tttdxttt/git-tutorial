@@ -17,3 +17,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/tttdxttt/Cpp_learn.git
 git push -u origin main
+When you push a new branch the first time use: >git push -u origin
+
+After that, you can just type a shorter command: >git push
+
+The first-time -u option created a persistent upstream tracking branch with your local branch.
