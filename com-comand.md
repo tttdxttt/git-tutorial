@@ -9,3 +9,11 @@ git checkout，切换分支或者标签；
 git merge，合并分支；
 git branch -d & git branch -D，删除或者强制删除分支；
 git tag，添加标签。
+
+echo "# Cpp_learn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tttdxttt/Cpp_learn.git
+git push -u origin main
